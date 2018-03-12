@@ -8,4 +8,4 @@ This is a basic tutorial to integrate RabbitMQ using java.
 RabbitMA provide an asynchronous way of communication between components. This is done via messaging queue concept. 
 
 
-![alt text](/RabbitMQTutorial/resources/Rabbit MQ.jpg "Lets see")
+![alt text](/resources/Rabbit MQ.jpg "Lets see")
