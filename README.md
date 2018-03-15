@@ -5,7 +5,7 @@ This is a basic tutorial to integrate RabbitMQ using java.
 
 # Introductoin: 
 
-RabbitMA provides an asynchronous way of communication between components. This is done via messaging queue mechanism. 
+RabbitMQ provides an asynchronous way of communication between components. This is done via messaging queue mechanism. 
 
 
 ![alt text](https://github.com/rohitraja/RabbitMQTutorial/blob/master/resources/Rabbit%20MQ.jpg)
@@ -13,7 +13,7 @@ RabbitMA provides an asynchronous way of communication between components. This 
 
 # Use Case or Scenario
 
-In a good architecture of software desing, it is good practice to decouple the software components. Consider a very simple scenario of ticket booking system where one of your software component does the ticket booking which is at machine X. As part of the booking system it needs to send the mails to the customers giving some details which may take some time to collect. The software component which sends the mail to those customers, after collecting some importent details is in different machine Y. For this kind of scenio we need a broker in between mostly known as "Messing Queue Server", so RabbitMQ is a kind of messing queue server here. In this concept there are mainly three components which plays an importent role ie. producer, broker and consumer. 
+In a good architecture of software desing, it is good practice to decouple the software components. Consider a very simple scenario of ticket booking system where one of your software component does the ticket booking which is at machine X. As part of the booking system it needs to send the mails to the customers giving some details which may take some time to collect. The software component which sends the mail to those customers, after collecting some importent details is in different machine Y. For this kind of scenario we need a broker in between mostly known as "Messing Queue Server", so RabbitMQ is a kind of messing queue server here. In this concept there are mainly three components which plays an importent role ie. producer, broker and consumer. 
 
 # Producer
 
@@ -32,7 +32,7 @@ The "Mailing Software component" in our use case is the "Consumer" who request f
 # Java Integration with RebbitMQ
 
 # Setup
-In this example we have used CloudAMQP(https://www.cloudamqp.com/) which is hosted on cloude and provides free subscription for few days. Below are the steps to configure this server. 
+In this example we have used CloudAMQP(https://www.cloudamqp.com/) which is hosted on cloud and provides free subscription for few days. Below are the steps to configure this server. 
 
 **Step 1.** Login using your google account. 
 
@@ -68,6 +68,6 @@ After you execute "Send.java" you will notice "Queued Message" count is increase
 
 
 # Key Points
-* Reffer Pom.xml for the lib used
+* Refer Pom.xml for the lib used
 * Create an issue if you are finding any issue. 
 * Share your repository link and other details if you need help. 
